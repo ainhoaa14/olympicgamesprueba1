@@ -1,0 +1,8 @@
+---
+title: "Mi Página Principal"
+output: html_document
+---
+
+# Bienvenido a mi sitio web
+
+Este es el contenido de la página principal de mi sitio web creado con **R Markdown**.

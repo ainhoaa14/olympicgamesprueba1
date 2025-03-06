@@ -1,0 +1,9 @@
+name: "Mi Sitio Web"    # Nombre del sitio
+output_dir: "docs"      # Carpeta donde se guardarán los archivos generados
+
+# Opcionalmente puedes especificar los documentos de inicio y configuraciones adicionales
+navbar:
+  title: "Página principal"
+  left:
+    - text: "Inicio"
+      href: "index.html"
