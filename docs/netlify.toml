@@ -1,0 +1,6 @@
+[build]
+  command = "Rscript -e 'rmarkdown::render_site()'"  # Comando para construir el sitio
+  publish = "docs"  # El directorio donde se guardará el sitio generado
+
+[[plugins]]
+  package = "@netlify/plugin-r"  # Plugin para instalar R durante el proceso de construcción
