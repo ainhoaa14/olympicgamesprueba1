@@ -1,5 +1,5 @@
----
-title: "netlify"
-output: html_document
----
-
+[build]
+  command = "Rscript -e 'rmarkdown::render_site()'"
+  publish = "docs"
+[[plugins]]
+  package = "@netlify/plugin-r"
